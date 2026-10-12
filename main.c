@@ -44,6 +44,7 @@ int run_file(const char *filename)
 		{"add", add},
 		{"nop", nop},
 		{"sub", sub},
+		{"div", _div},
 		{NULL, NULL}
 	};
 	int i, found;

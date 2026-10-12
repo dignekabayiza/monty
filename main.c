@@ -40,6 +40,7 @@ int run_file(const char *filename)
 		{"pall", pall},
 		{"pint", pint},
 		{"pop", pop},
+		{"swap", swap},
 		{NULL, NULL}
 	};
 	int i, found;

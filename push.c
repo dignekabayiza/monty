@@ -9,7 +9,6 @@
  */
 void push(stack_t **stack, unsigned int line_number)
 {
-	extern char *current_arg;
 	stack_t *new_node;
 	int i;
 

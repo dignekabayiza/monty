@@ -43,6 +43,7 @@ int run_file(const char *filename)
 		{"swap", swap},
 		{"add", add},
 		{"nop", nop},
+		{"sub", sub},
 		{NULL, NULL}
 	};
 	int i, found;

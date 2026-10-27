@@ -42,6 +42,8 @@ void pchar(stack_t **stack, unsigned int line_number);
 void pstr(stack_t **stack, unsigned int line_number);
 void rotl(stack_t **stack, unsigned int line_number);
 void rotr(stack_t **stack, unsigned int line_number);
+void stack_mode(stack_t **stack, unsigned int line_number);
+void queue_op(stack_t **stack, unsigned int line_number);
 void pop(stack_t **stack, unsigned int line_number);
 void swap(stack_t **stack, unsigned int line_number);
 void add(stack_t **stack, unsigned int line_number);
@@ -52,6 +54,8 @@ void mul(stack_t **stack, unsigned int line_number);
 void mod(stack_t **stack, unsigned int line_number);
 void free_stack(stack_t *stack);
 extern char *current_arg;
+extern int queue_mode;
+extern int queue_mode;
 
 #endif
 

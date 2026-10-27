@@ -1,6 +1,7 @@
 #include "monty.h"
 
 char *current_arg;
+int queue_mode = 0;
 
 int run_file(const char *filename);
 
@@ -43,6 +44,8 @@ int run_file(const char *filename)
 		{"pstr", pstr},
 		{"rotl", rotl},
 		{"rotr", rotr},
+		{"stack", stack_mode},
+		{"queue", queue_op},
 		{"pop", pop},
 		{"swap", swap},
 		{"add", add},

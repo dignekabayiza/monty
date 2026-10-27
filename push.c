@@ -37,6 +37,19 @@ void push(stack_t **stack, unsigned int line_number)
 	}
 
 	new_node->n = atoi(current_arg);
+	
+	if (queue_mode == 1 && *stack != NULL)
+	{
+		stack_t *last = *stack;
+
+		while (last->next != NULL)
+			last = last->next;
+		new_node->prev = last;
+		new_node->next = NULL;
+		last->next = new_node;
+		return;
+	}
+
 	new_node->prev = NULL;
 	new_node->next = *stack;
 

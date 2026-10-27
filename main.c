@@ -42,6 +42,7 @@ int run_file(const char *filename)
 		{"pchar", pchar},
 		{"pstr", pstr},
 		{"rotl", rotl},
+		{"rotr", rotr},
 		{"pop", pop},
 		{"swap", swap},
 		{"add", add},

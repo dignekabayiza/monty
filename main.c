@@ -40,6 +40,7 @@ int run_file(const char *filename)
 		{"pall", pall},
 		{"pint", pint},
 		{"pchar", pchar},
+		{"pstr", pstr},
 		{"pop", pop},
 		{"swap", swap},
 		{"add", add},
